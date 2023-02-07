@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Core_Java_Assignments:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Core_Java_Assignments_jar</output-path>
+    <root id="archive" name="Core_Java_Assignments.jar">
+      <element id="module-output" name="Core_Java_Assignments" />
+    </root>
+  </artifact>
+</component>
