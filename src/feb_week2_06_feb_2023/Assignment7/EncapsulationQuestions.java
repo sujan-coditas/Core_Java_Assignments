@@ -124,8 +124,8 @@ public class EncapsulationQuestions {
 * Manager Name : Pratiksha
 Customer Name : Sujan
 Account Balance is :23000.0
-*
-*
-*
+
+
+
 Area of rectangle is: 5000
 */
