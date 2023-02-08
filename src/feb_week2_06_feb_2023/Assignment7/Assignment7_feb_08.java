@@ -33,9 +33,6 @@ class Question1 {
 
            Arrays.fill will fill the complete array with the 1 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
            */
-
-
-
     }
 }
 
