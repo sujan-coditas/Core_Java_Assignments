@@ -4,7 +4,6 @@ import java.util.Scanner;
 class Employee {
     private String name;
     private int id;
-
     public Employee() {}
 
     public Employee(String name, int id) {
