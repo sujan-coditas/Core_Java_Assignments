@@ -28,5 +28,4 @@ public class Vehicle {
 
 /* ============OUTPUT==============
 * good engine
-truck has bad engine
-* */
+truck has bad engine*/
