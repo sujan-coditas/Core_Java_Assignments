@@ -52,3 +52,27 @@ public class StringMethods {
          methods.methodDisplay();
     }
 }
+/*================OUTPUT=============
+* Char At: S
+Code Point At : 97
+Code Point Count : 9
+compare To : 51
+compare To Ingnore Case : 0
+concat name and city : SujanShaikh Nanded
+Contains : true
+Equals : false
+Length : 11
+Intern :
+false
+false
+false
+isEmpty :false
+starts with :true
+Sub String : Suja
+LowerCase : sujanshaikh
+Upper Case : SUJANSHAIKH
+Replace :  Manded
+Replace All :  Nanses
+index Of : 2
+Matches : false
+*/
