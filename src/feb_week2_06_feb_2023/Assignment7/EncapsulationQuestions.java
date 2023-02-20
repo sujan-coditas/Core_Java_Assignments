@@ -74,7 +74,7 @@ class AreaOfRectangle{
         return height;
     }
     private  int getArea(){
-        return Area;
+        return this.getHeight()*this.getWidth();
     }
 
     private  int setArea(){
@@ -114,7 +114,7 @@ public class EncapsulationQuestions {
         AreaOfRectangle areaOfRectangle= new AreaOfRectangle();
         areaOfRectangle.setHeight(50);
         areaOfRectangle.setWidth(100);
-        System.out.println("Area of rectangle is: "+ areaOfRectangle.getHeight()*areaOfRectangle.getWidth());
+        System.out.println("Area of rectangle is: " );
     }
 }
 

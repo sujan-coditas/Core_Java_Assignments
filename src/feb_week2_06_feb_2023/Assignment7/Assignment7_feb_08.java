@@ -26,13 +26,13 @@ class Question1 {
 
         /* ==========OUTPUT===============
             Sorted array using built-in sort method : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
             Sorted array using built-in BinarySearch method :2
-
             copyofRange method :  3  4  5  6
-
            Arrays.fill will fill the complete array with the 1 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
            */
+
+
+
     }
 }
 
@@ -102,10 +102,8 @@ class Question4 {
 }
 
 /*  ============OUTPUT===============
-
 the duplicate element in str is :: sujan
 Unique elements: [sujan, pratiksha, tanmay, yash]
-
 */
 
 class Question5{
@@ -115,7 +113,7 @@ class Question5{
         int result=0;
         for(int i=0;i< array.length;i++){
             for(int j=0;j< array1[i].length;j++){
-                 result=array[i][j]+array1[i][j];
+                result=array[i][j]+array1[i][j];
                 System.out.println("Addition of Array[" + i + "][" + j + "] is :: " + result);            }
         }
 
@@ -131,7 +129,6 @@ Addition of Array[1][1] is :: 20
 Addition of Array[2][0] is :: 22
 Addition of Array[2][1] is :: 24
 Addition of Array[2][2] is :: 26
-
 Process finished with exit code 0
 */
 
@@ -142,15 +139,13 @@ class Question6{
         System.out.println("choose the index value  between 1 to 5  ");
         int n=sc.nextInt();
         System.out.println("Value at the index is :: " + array[n]);
-   }
+    }
 }
 
 /* ==============OUTPUT============
-
 choose the index value  between 1 to 5
 2
 Value at the index is :: 12
-
 Process finished with exit code 0*/
 
 
@@ -159,11 +154,11 @@ Process finished with exit code 0*/
 public class Assignment7_feb_08 {
     public static void main(String[] args) {
         Question1 question1=new Question1();
-       // question1.displayQuestion1();
+        // question1.displayQuestion1();
         Question2 question2=new Question2();
-       // question2.displayQuestion2();
+        // question2.displayQuestion2();
         Question3  question3=new Question3();
-       // question3.displayQuestion3();
+        // question3.displayQuestion3();
         Question4 question4=new Question4();
         //question4.displayQuestion4();
         Question5 question5=new Question5();

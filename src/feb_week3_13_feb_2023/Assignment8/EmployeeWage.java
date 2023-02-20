@@ -78,7 +78,7 @@ public class EmployeeWage {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
-        System.out.println(" Enter   Employe Name,Employee id ,hourlyRate and totalWorkingHours : ");
+        System.out.println(" Enter  Employee Name, id ,hourlyRate and totalWorkingHours : ");
         String name=sc.next();
         int id=sc.nextInt();
         int hrs=sc.nextInt();
