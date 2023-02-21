@@ -9,10 +9,8 @@ class Methods{
          name4="SujanShaikh";
          String name6=new String("SujanShaikh");
         System.out.println("Char At: "+ name.charAt(5));// returns character at particular index.
-
         // returns the Unicode value of the character at the specified index in a string.
         System.out.println("Code Point At : "+ name.codePointAt(3));
-
         System.out.println("Code Point Count : "+ name.codePointCount(1,10));
         System.out.println("compare To : "+  name.compareTo(city));
         System.out.println("compare To Ingnore Case : "+ name.compareToIgnoreCase(name1));
@@ -28,9 +26,7 @@ class Methods{
         // But if we call intern() on str3, it will return a reference to the same object as str1 and str2
         String name5 = name4.intern();
         System.out.println("using interns() : "+name == name4); // true
-
         System.out.println("isEmpty :" + name.isEmpty());
-
         System.out.println("starts with :" + name.startsWith("S") );
         System.out.println("Sub String : "+ name.substring(0,4));
         System.out.println("LowerCase : "+ name.toLowerCase());
