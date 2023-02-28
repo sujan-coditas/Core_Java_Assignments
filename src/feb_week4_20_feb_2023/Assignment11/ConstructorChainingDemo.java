@@ -34,7 +34,8 @@ class ConstructorChainingDifferentClass extends ConstructorChainingSameClass {
 
     // using super keyword
 
-    public ConstructorChainingDifferentClass(String name, int age) {
+    public ConstructorChainingDifferentClass(String name, int age)
+    {
         super(name, age);
     }
 
