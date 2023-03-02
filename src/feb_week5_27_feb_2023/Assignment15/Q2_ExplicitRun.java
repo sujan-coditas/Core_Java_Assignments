@@ -20,4 +20,7 @@ public class Q2_ExplicitRun {
 /*Yes, we can explicitly call the run() method in multithreading in Java.
  However, if we call the run() method directly, it will run the code in the current thread,
  and it will not create a new thread.
-To create a new thread and execute the run() method in that thread, we need to call the start() method.*/
+To create a new thread and execute the run() method in that thread, we need to call the start() method.
+
+  main thread will also run explicitly with all other threads.
+*/
