@@ -50,6 +50,9 @@ public class MultipleUserThreads implements Runnable{
         BookingPortal yash = new BookingPortal(7, bmt);
         Thread t3 = new Thread(yash);
         t3.start();
+        t1.join();
+        t2.join();
+        t3.join();
 
     }
         catch (Exception e){

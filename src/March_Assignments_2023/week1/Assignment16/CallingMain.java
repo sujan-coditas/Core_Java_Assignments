@@ -17,7 +17,6 @@ public class CallingMain {
                     MultipleUserThreads multipleUserThreads = new MultipleUserThreads();
                     Thread t1=new Thread(multipleUserThreads);
                     t1.start();
-
                     t1.join();
                     break;
 
@@ -46,45 +45,42 @@ public class CallingMain {
  1.MultipleUserThread
  2.Synchronised Method
  3.Synchronised Block
-1
-Do you want to Continue ? (y/n)
-5 Tickets booked  for Thread-2
-Remaining Tickets : 5for Thread-2
-6 Tickets booked  for Thread-1
-Remaining Tickets : -1for Thread-1
-Couldn't book tickets
-y
-enter choice :
- 1.MultipleUserThread
- 2.Synchronised Method
- 3.Synchronised Block
-
-2
-
-Do you want to Continue ? (y/n)
-6 Tickets booked  for Thread-4
-Remaining Tickets : 4for Thread-4
-Couldn't book tickets
-Couldn't book tickets
-y
-enter choice :
- 1.MultipleUserThread
- 2.Synchronised Method
- 3.Synchronised Block
 3
+Hello We Welcome you all to watch movies and enjoy your weekend. Thread-0
+Hello We Welcome you all to watch movies and enjoy your weekend. Thread-2
+Hello We Welcome you all to watch movies and enjoy your weekend. Thread-1
+6 Tickets booked  for Thread-0
+Remaining Tickets : 4 for Thread-0
+Have a great day :)
+Couldn't book tickets Thread-1
+Have a great day :)
+Couldn't book tickets Thread-2
+Have a great day :)
 Do you want to Continue ? (y/n)
-Hello We Welcome you all to watch movies and enjoy your weekend. Thread-7
-Hello We Welcome you all to watch movies and enjoy your weekend. Thread-8
+y
+enter choice :
+ 1.MultipleUserThread
+ 2.Synchronised Method
+ 3.Synchronised Block
+2
+6 Tickets booked  for Thread-3
+Remaining Tickets : 4for Thread-3
+Couldn't book tickets
+Couldn't book tickets
+Do you want to Continue ? (y/n)
+y
+enter choice :
+ 1.MultipleUserThread
+ 2.Synchronised Method
+ 3.Synchronised Block
+1
 6 Tickets booked  for Thread-7
-Hello We Welcome you all to watch movies and enjoy your weekend. Thread-9
-Remaining Tickets : 4 for Thread-7
-Have a great day :)
-Couldn't book tickets Thread-9
-Have a great day :)
-Couldn't book tickets Thread-8
-Have a great day :)
+5 Tickets booked  for Thread-8
+Remaining Tickets : 4for Thread-7
+Remaining Tickets : -1for Thread-8
+Couldn't book tickets
+Do you want to Continue ? (y/n)
 n
-
 
 Process finished with exit code 0
 */

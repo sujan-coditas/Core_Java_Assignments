@@ -34,7 +34,7 @@ class BookingPortal1 implements Runnable{
 
 public class SynchronisedMethod{
 
-    public void displaySynchronisedMethod() {
+    public void displaySynchronisedMethod() throws InterruptedException {
 
         BookMovieTickets bmt=new BookMovieTickets();
 
@@ -50,8 +50,9 @@ public class SynchronisedMethod{
         BookingPortal1 yash= new BookingPortal1(7,bmt);
         Thread t3=new Thread(yash);
         t3.start();
-
-
+        t1.join();
+        t2.join();
+        t3.join();
 
     }
 }

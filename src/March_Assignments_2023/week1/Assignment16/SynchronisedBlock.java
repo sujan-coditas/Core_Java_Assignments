@@ -36,7 +36,7 @@ class BookingPortal2 implements Runnable {
 }
 
 public class SynchronisedBlock {
-  public void displaySynchronisedBlock(){
+  public void displaySynchronisedBlock() throws InterruptedException {
       {
           BookMovieTickets2 bmt = new BookMovieTickets2();
 
@@ -51,6 +51,9 @@ public class SynchronisedBlock {
           BookingPortal2 yash = new BookingPortal2(7, bmt);
           Thread t3 = new Thread(yash);
           t3.start();
+          t1.join();
+          t2.join();
+          t3.join();
       }
   }
 }
