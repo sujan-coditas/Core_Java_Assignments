@@ -31,11 +31,10 @@ class BookingPortal implements Runnable{
     }
 }
 
-public class MultipleUserThreads implements Runnable{
+public class MultipleUserThread {
 
-    public void run() {
+    public void multiThreadDemo() throws InterruptedException {
 
-        try{
         BookMovieTickets bmt = new BookMovieTickets();
 
         BookingPortal sujan = new BookingPortal(6, bmt);
@@ -55,11 +54,4 @@ public class MultipleUserThreads implements Runnable{
         t3.join();
 
     }
-        catch (Exception e){
-
-        }
-
-
-    }
 }
-

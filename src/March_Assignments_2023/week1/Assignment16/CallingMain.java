@@ -14,10 +14,8 @@ public class CallingMain {
 
             switch (option) {
                 case 1:
-                    MultipleUserThreads multipleUserThreads = new MultipleUserThreads();
-                    Thread t1=new Thread(multipleUserThreads);
-                    t1.start();
-                    t1.join();
+                   MultipleUserThread multipleUserThread=new MultipleUserThread();
+                   multipleUserThread.multiThreadDemo();
                     break;
 
                 case 2:
