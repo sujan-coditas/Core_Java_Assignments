@@ -11,7 +11,6 @@ public class Q4_hashsetToTreeset {
         name.add("shaikh");
 
         System.out.println("Printing Hashset values ::" + name);
-
         TreeSet <String> fullName= new TreeSet<>(name);
         System.out.println("Conversion of HashSet to TreeSet ::" + fullName);
 
