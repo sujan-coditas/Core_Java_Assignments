@@ -32,8 +32,8 @@ public class Q5_HashsetToArray {
 
     }
 }
-
 /*
 Printing Hashset values ::[karim, sujan, shaikh]
-Displaying Hashset to Array : [karim, sujan, shaikh]
+First element: karim
+Last element: shaikh
 */
