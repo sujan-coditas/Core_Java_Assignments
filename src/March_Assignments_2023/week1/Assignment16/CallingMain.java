@@ -6,6 +6,7 @@ public class CallingMain {
     public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
          char choice;
+
         do {
             System.out.println("enter choice : \n 1.MultipleUserThread \n 2.Synchronised Method \n 3.Synchronised Block");
             int option = sc.nextInt();
