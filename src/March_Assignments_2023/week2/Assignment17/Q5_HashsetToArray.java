@@ -12,10 +12,7 @@ public class Q5_HashsetToArray {
         name.add("shaikh");
         System.out.println("Printing Hashset values ::" + name);
 
-//        String fullname[]=new String[name.size()];
-//        fullname=name.toArray(fullname);
-//
-//        System.out.println("Displaying Hashset to Array : " + Arrays.toString(fullname));
+
 
         Iterator<String> iterator = name.iterator();
         String first = iterator.next();

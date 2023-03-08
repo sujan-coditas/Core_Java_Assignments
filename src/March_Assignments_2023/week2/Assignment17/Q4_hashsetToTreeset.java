@@ -16,3 +16,7 @@ public class Q4_hashsetToTreeset {
 
     }
 }
+/*
+* Printing Hashset values ::[karim, sujan, shaikh]
+Conversion of HashSet to TreeSet ::[karim, shaikh, sujan]
+* */
