@@ -88,8 +88,6 @@ public class BankFunctions {
                  ps.setInt(3, balance);
                  ps.executeUpdate();
 
-
-
                  System.out.println("your amount has been Deposited ");
              }
 
