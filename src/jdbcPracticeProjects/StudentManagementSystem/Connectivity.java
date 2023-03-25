@@ -1,22 +1,13 @@
 package jdbcPracticeProjects.StudentManagementSystem;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Random;
 
 public class Connectivity {
- public static Connection getconnection() {
-     Connection connection;
 
-     try {
-         Class.forName("com.mysql.jdbc:Driver");
-         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentManagementSystem", "root", "Sujan@123");
-
-     } catch (ClassNotFoundException e) {
-         throw new RuntimeException(e);
-     } catch (SQLException e) {
-         throw new RuntimeException(e);
-     }
-     return connection;
- }
 }
